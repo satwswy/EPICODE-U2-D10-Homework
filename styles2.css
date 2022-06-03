@@ -9,3 +9,24 @@ hr {
     display: flex;
     gap: 50px;
 }
+.section2 .div-one {
+    font-size: 1.3rem;
+    width: 250px;
+    background-color: grey;
+    color: white;
+}
+.section2 .div-two {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: rgb(197, 191, 191);
+}
+.section2 .div-three {
+    margin-top: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
