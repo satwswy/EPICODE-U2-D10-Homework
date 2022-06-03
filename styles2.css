@@ -1,6 +1,7 @@
 body {
     background-color: rgb(44, 44, 44);
     color: white;
+    height: 100vh;
 }
 hr {
     background-color: rgb(145, 142, 142);
