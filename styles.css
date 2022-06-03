@@ -1,5 +1,6 @@
 body {
     background-color: rgb(44, 44, 44);
+    color: white;
 }
 .navbar .form-inline {
     color: white;
@@ -31,4 +32,9 @@ body {
 .section-one-container svg {
     border: 1px solid white;
     padding: 2px;
+}
+.row img {
+    margin-top: 5px;
+    width: 100%;
+    object-fit: cover;
 }
