@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
 .navbar .form-inline {
     color: white;
 }
@@ -6,4 +9,26 @@
 }
 .form-inline {
     gap: 12px;
+}
+.section-one-container {
+    display: flex;
+    align-items:center;
+    color: white;
+    margin-top: 50px;
+}
+.section-one-container .genres {
+    margin-right: auto;
+    margin-left: 50px;
+    border: 2px solid white;
+    background-color: #343a40;
+    padding: 8px;
+}
+.genres {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.section-one-container svg {
+    border: 1px solid white;
+    padding: 2px;
 }
