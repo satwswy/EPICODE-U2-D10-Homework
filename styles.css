@@ -1,6 +1,7 @@
 body {
     background-color: rgb(44, 44, 44);
     color: white;
+    animation: 3s ease-out 0s 1 fadedOpacity;
 }
 .navbar .form-inline {
     color: white;
@@ -60,4 +61,12 @@ footer span {
 }
 footer .paragraph-div div {
     min-width: 120px;
+}
+@keyframes fadedOpacity {
+    0% {
+     opacity: 0;
+        }
+    100% {
+     opacity: 1;
+        }
 }

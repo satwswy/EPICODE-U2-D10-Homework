@@ -2,6 +2,7 @@ body {
     background-color: rgb(44, 44, 44);
     color: white;
     height: 100vh;
+    animation: 3s ease-out 0s 1 fadedOpacity;
 }
 hr {
     background-color: rgb(145, 142, 142);
@@ -75,6 +76,14 @@ hr {
 }
 .container .buttons{
     margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+.container .buttons button:hover {
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
 }
 .container .buttons button:nth-child(1) {
     border: none;
@@ -110,4 +119,12 @@ hr {
     font-size: 1.2rem;
     border: 1px solid grey;
     font-weight: 700;
+}
+@keyframes fadedOpacity {
+    0% {
+     opacity: 0;
+        }
+    100% {
+     opacity: 1;
+        }
 }
