@@ -2,3 +2,10 @@ body {
     background-color: rgb(44, 44, 44);
     color: white;
 }
+hr {
+    background-color: rgb(145, 142, 142);
+}
+.section2 {
+    display: flex;
+    gap: 50px;
+}
