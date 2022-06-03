@@ -30,3 +30,83 @@ hr {
     justify-content: space-between;
     align-items: center;
 }
+.section2 .div-four {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: rgb(197, 191, 191);
+}
+.section2 .div-five {
+    width: 250px;
+    font-size: 11pt;
+    font-weight: 700;
+    color: white;
+    background-color: grey;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.section2 .div-six {
+    width: 100px;
+    background-color: rgb(36, 32, 32);
+    color: rgb(163, 156, 156);
+    border: 1px solid grey;
+    text-align: center;
+    padding: 5px;
+    margin-top: 8px;
+}
+.section2 .div-seven {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: rgb(197, 191, 191);
+    margin-bottom: 15px;
+}
+.section2 .div-eight {
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.section2 .div-nine {
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+    gap: 15px;
+}
+.container .buttons{
+    margin-top: 15px;
+}
+.container .buttons button:nth-child(1) {
+    border: none;
+    color: black;
+    padding: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    font-weight: 700;
+}
+.container .buttons button:nth-child(2) {
+    border: none;
+    color: grey;
+    background-color: inherit;
+    padding: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    font-weight: 700;
+}
+.container .buttons button:nth-child(3) {
+    border: none;
+    color: grey;
+    background-color: inherit;
+    padding: 8px;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    border: 1px solid grey;
+    font-weight: 700;
+}
