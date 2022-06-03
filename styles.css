@@ -38,3 +38,26 @@ body {
     width: 100%;
     object-fit: cover;
 }
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+footer .icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+footer .paragraph-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    line-height: 2.1rem;
+}
+footer span {
+    border: 1px solid white;
+    padding: 8px;
+}
+footer .paragraph-div div {
+    min-width: 120px;
+}
