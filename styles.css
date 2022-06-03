@@ -1,0 +1,9 @@
+.navbar .form-inline {
+    color: white;
+}
+.form-inline div {
+    font-size: 1.3rem;
+}
+.form-inline {
+    gap: 12px;
+}
