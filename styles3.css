@@ -31,17 +31,49 @@ body nav {
 .section-two .premium {
     margin-right: auto;
     position: relative;
-    left: 115px;
+    left: 85px;
 }
 .section-three {
     display: flex;
-    gap: 190px;
+    gap: 170px;
 }
 .section-four {
     display: flex;
-    gap: 175px;
+    gap: 150px;
 }
 .section-four .view-activity {
     margin-right: auto;
-    margin-left: 85px;
+    margin-left: 65px;
+}
+.blue {
+    color: blue;
+}
+.text-grey {
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ultra-hd {
+    color: black;
+    border: 2px solid black;
+    font-weight: 700;
+}
+.grey {
+    color: grey;
+}
+button {
+    border: none;
+    padding: 8px;
+    margin-left: 10px;
+}
+body {
+    font-size: 12pt;
+    font-weight: 700;
+}
+.strive-student {
+    margin-bottom: 50px;
+}
+.view-activity {
+    position: relative;
+    top: 76px;
 }
