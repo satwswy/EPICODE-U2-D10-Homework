@@ -1,6 +1,26 @@
-body {
+body nav {
     color: white;
 }
 .form-inline {
     gap: 12px;
+}
+.section-one {
+    display: flex;
+    gap: 35px;
+}
+.second-part {
+    flex-grow: 1;
+}
+.second-part .one {
+    display: flex;
+    justify-content: space-between;
+}
+.second-part .second-part-two {
+    display: flex;
+    justify-content: space-between;
+}
+.second-part .second-part-three {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
